@@ -7,7 +7,6 @@ console.log(secretMessage.length);
 
 // add the words 'to' and 'Program' to the end
 secretMessage.push('to', 'Program');
-console.log(secretMessage.length);
 console.log(secretMessage);
 
 //change a word by accessing the index and replacing it
@@ -28,4 +27,4 @@ console.log(secretMessage);
 secretMessage.splice(secretMessage.indexOf('get'), 5, 'know,');
 
 //print the secret message as a sentence
-console.log(secretMessage.join());
+console.log("The secret message is: " + secretMessage.join(" "));
